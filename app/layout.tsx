@@ -1,12 +1,12 @@
 import { Figtree } from "next/font/google";
 
 import getSongsByUserId from "@/actions/getSongsByUserId";
-import getActiveProductsWithPrices from "@/actions/getActiveProductsWithPrices";
+import getActiveProductsWithPrices from "@/actions/getActiveProdcutsWithPrices";
 import Sidebar from "@/components/Sidebar";
 import ToasterProvider from "@/providers/ToasterProvider";
 import UserProvider from "@/providers/UserProvider";
 import ModalProvider from "@/providers/ModalProvider";
-import SupabaseProvider from "@/providers/SupabaseProvider";
+import SupabaseProvider from "@/providers/SupabaseProviders";
 import Player from "@/components/Player";
 
 import "./globals.css";

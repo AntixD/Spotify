@@ -1,8 +1,7 @@
 import getSongs from "@/actions/getSongs";
 import Header from "@/components/Header";
 import ListItem from "@/components/ListItem";
-
-import PageContent from "./components/PageContent";
+import PageContent from "./components/PageContext";
 
 export const revalidate = 0;
 
